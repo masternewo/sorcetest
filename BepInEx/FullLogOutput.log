@@ -1,0 +1,904 @@
+[Info   :   BepInEx] Loading [KmyTarkovUtils 1.4.0]
+[Info   :   BepInEx] Loading [DrakiaXYZ-BigBrain 1.3.2]
+[Info   :DrakiaXYZ-BigBrain] Loading: DrakiaXYZ-BigBrain
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivatePatch
+[Info   :ModulePatch] Enabled patch BotBrainCreateLogicNodePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainUpdatePatch
+[Info   :ModulePatch] Enabled patch BotAgentUpdatePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivateLayerPatch
+[Info   :ModulePatch] Enabled patch BotStandartBotBrainActivatePatch
+[Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
+[Info   :   BepInEx] Loading [LootingBots 1.5.2]
+[Info   :ModulePatch] Enabled patch CleanCacheOnRaidEnd
+[Info   :ModulePatch] Enabled patch ClearCacheOnDeath
+[Info   :ModulePatch] Enabled patch EnableWeaponSwitching
+[Info   :ModulePatch] Enabled patch InteractPatch
+[Info   :ModulePatch] Enabled patch InventoryClosePatch
+[Info   :ModulePatch] Enabled patch RemoveComponent
+[Info   :   BepInEx] Loading [SAIN 3.3.0]
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+SAIN.Plugin.PresetHandler.Init () (at <b415d1feef1d4ac295355e1478ea0043>:0)
+SAIN.SAINPlugin.Awake () (at <b415d1feef1d4ac295355e1478ea0043>:0)
+UnityEngine.GameObject:AddComponent(Type)
+BepInEx.Bootstrap.Chainloader:Start()
+UnityEngine.Application:.cctor()
+Sirenix.Serialization.UnitySerializationInitializer:Initialize()
+Sirenix.Serialization.UnitySerializationInitializer:InitializeRuntime()
+
+[Info   :   BepInEx] Loading [MoxoPixel-MenuOverhaul 1.0.6]
+[Info   :ModulePatch] Enabled patch MenuOverhaulPatch
+[Info   :ModulePatch] Enabled patch SetAlphaPatch
+[Info   :ModulePatch] Enabled patch TweenButtonPatch
+[Info   :ModulePatch] Enabled patch OnGameStartedPatch
+[Info   :ModulePatch] Enabled patch OnGameEndedPatch
+[Info   :MoxoPixel-MenuOverhaul] MenuOverhaul by MoxoPixel loaded
+[Info   :   BepInEx] Loading [MainMenuCleaner 1.0.0]
+[Info   :MainMenuCleaner] MainMenuCleaner loaded!
+[Info   :ModulePatch] Enabled patch HideBetaReworkPatch
+[Info   :ModulePatch] Enabled patch HideVersionPatch
+[Info   :ModulePatch] Enabled patch HideGameModePatch
+[Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.7.0]
+[Info   :ModulePatch] Enabled patch DebugPatch
+[Info   :ModulePatch] Enabled patch WaypointPatch
+[Info   :ModulePatch] Enabled patch DoorLinkPatch
+[Info   :ModulePatch] Enabled patch DoorLinkStateChangePatch
+[Info   :ModulePatch] Enabled patch SwitchDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch ExfilDoorBlockerPatch
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+[Info   : Unity Log] Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
+[Info   : Unity Log] Skipped command line argument:I:\Escape.From.Tarkov.v0.16.1.3.35392-P2P-www.P30Day.ir\EscapeFromTarkov.exe
+[Info   : Unity Log] Skipped command line argument:-force-gfx-jobs
+[Info   : Unity Log] Skipped command line argument:native
+[Info   : Unity Log] key:token value:67f370d8000377760f38bef8
+[Info   : Unity Log] key:config value:{'BackendUrl':'https://127.0.0.1:6969','MatchingVersion':'live','Version':'live'}
+[Info   : Unity Log] PlayerLoopSystems:
+UnityEngine.PlayerLoop.TimeUpdate
+	UnityEngine.PlayerLoop.TimeUpdate+WaitForLastPresentationAndUpdateTime
+UnityEngine.PlayerLoop.Initialization
+	UnityEngine.PlayerLoop.Initialization+ProfilerStartFrame
+	UnityEngine.PlayerLoop.Initialization+UpdateCameraMotionVectors
+	UnityEngine.PlayerLoop.Initialization+DirectorSampleTime
+	UnityEngine.PlayerLoop.Initialization+AsyncUploadTimeSlicedUpdate
+	UnityEngine.PlayerLoop.Initialization+SynchronizeInputs
+	UnityEngine.PlayerLoop.Initialization+SynchronizeState
+	UnityEngine.PlayerLoop.Initialization+XREarlyUpdate
+UnityEngine.PlayerLoop.EarlyUpdate
+	CustomPlayerLoopSystem.FrameCounter
+	CustomPlayerLoopSystem.StartOfFrame
+	UnityEngine.PlayerLoop.EarlyUpdate+PollPlayerConnection
+	UnityEngine.PlayerLoop.EarlyUpdate+GpuTimestamp
+	UnityEngine.PlayerLoop.EarlyUpdate+AnalyticsCoreStatsUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+UnityWebRequestUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+ExecuteMainThreadJobs
+	UnityEngine.PlayerLoop.EarlyUpdate+ProcessMouseInWindow
+	UnityEngine.PlayerLoop.EarlyUpdate+ClearIntermediateRenderers
+	UnityEngine.PlayerLoop.EarlyUpdate+ClearLines
+	UnityEngine.PlayerLoop.EarlyUpdate+PresentBeforeUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+ResetFrameStatsAfterPresent
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateAsyncInstantiate
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateAsyncReadbackManager
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateStreamingManager
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateTextureStreamingManager
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdatePreloading
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateContentLoading
+	UnityEngine.PlayerLoop.EarlyUpdate+RendererNotifyInvisible
+	UnityEngine.PlayerLoop.EarlyUpdate+PlayerCleanupCachedData
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateMainGameViewRect
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateCanvasRectTransform
+	UnityEngine.PlayerLoop.EarlyUpdate+XRUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateInputManager
+	UnityEngine.PlayerLoop.EarlyUpdate+ProcessRemoteInput
+	UnityEngine.PlayerLoop.EarlyUpdate+ScriptRunDelayedStartupFrame
+	UnityEngine.PlayerLoop.EarlyUpdate+UpdateKinect
+	UnityEngine.PlayerLoop.EarlyUpdate+DeliverIosPlatformEvents
+	UnityEngine.PlayerLoop.EarlyUpdate+ARCoreUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+DispatchEventQueueEvents
+	UnityEngine.PlayerLoop.EarlyUpdate+Physics2DEarlyUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+PhysicsResetInterpolatedTransformPosition
+	UnityEngine.PlayerLoop.EarlyUpdate+SpriteAtlasManagerUpdate
+	UnityEngine.PlayerLoop.EarlyUpdate+PerformanceAnalyticsUpdate
+UnityEngine.PlayerLoop.FixedUpdate
+	CustomPlayerLoopSystem.StartOfFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+ClearLines
+	UnityEngine.PlayerLoop.FixedUpdate+NewInputFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+DirectorFixedSampleTime
+	UnityEngine.PlayerLoop.FixedUpdate+AudioFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+ScriptRunBehaviourFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+DirectorFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+LegacyFixedAnimationUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+XRFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+PhysicsFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+Physics2DFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+PhysicsClothFixedUpdate
+	UnityEngine.PlayerLoop.FixedUpdate+DirectorFixedUpdatePostPhysics
+	UnityEngine.PlayerLoop.FixedUpdate+ScriptRunDelayedFixedFrameRate
+	CustomPlayerLoopSystem.EndOfFixedUpdate
+UnityEngine.PlayerLoop.PreUpdate
+	UnityEngine.PlayerLoop.PreUpdate+PhysicsUpdate
+	UnityEngine.PlayerLoop.PreUpdate+Physics2DUpdate
+	UnityEngine.PlayerLoop.PreUpdate+PhysicsClothUpdate
+	UnityEngine.PlayerLoop.PreUpdate+CheckTexFieldInput
+	UnityEngine.PlayerLoop.PreUpdate+IMGUISendQueuedEvents
+	UnityEngine.PlayerLoop.PreUpdate+NewInputUpdate
+	UnityEngine.PlayerLoop.PreUpdate+SendMouseEvents
+	UnityEngine.PlayerLoop.PreUpdate+AIUpdate
+	UnityEngine.PlayerLoop.PreUpdate+WindUpdate
+	UnityEngine.PlayerLoop.PreUpdate+UpdateVideo
+	CustomPlayerLoopSystem.UNetUpdate
+	CustomPlayerLoopSystem.PostUNetUpdate
+	CustomPlayerLoopSystem.DataProviderSyncUpdate
+	CustomPlayerLoopSystem.GlobalEventsClear
+	CustomPlayerLoopSystem.GlobalEventsApply
+UnityEngine.PlayerLoop.Update
+	CustomPlayerLoopSystem.StartOfUpdate
+	UnityEngine.PlayerLoop.Update+ScriptRunBehaviourUpdate
+	UnityEngine.PlayerLoop.Update+ScriptRunDelayedDynamicFrameRate
+	UnityEngine.PlayerLoop.Update+ScriptRunDelayedTasks
+	UnityEngine.PlayerLoop.Update+DirectorUpdate
+	CustomPlayerLoopSystem.EndOfUpdate
+UnityEngine.PlayerLoop.PreLateUpdate
+	UnityEngine.PlayerLoop.PreLateUpdate+AIUpdatePostScript
+	UnityEngine.PlayerLoop.PreLateUpdate+DirectorUpdateAnimationBegin
+	UnityEngine.PlayerLoop.PreLateUpdate+LegacyAnimationUpdate
+	UnityEngine.PlayerLoop.PreLateUpdate+DirectorUpdateAnimationEnd
+	UnityEngine.PlayerLoop.PreLateUpdate+DirectorDeferredEvaluate
+	UnityEngine.PlayerLoop.PreLateUpdate+UIElementsUpdatePanels
+	UnityEngine.PlayerLoop.PreLateUpdate+EndGraphicsJobsAfterScriptUpdate
+	UnityEngine.PlayerLoop.PreLateUpdate+ConstraintManagerUpdate
+	UnityEngine.PlayerLoop.PreLateUpdate+ParticleSystemBeginUpdateAll
+	UnityEngine.PlayerLoop.PreLateUpdate+Physics2DLateUpdate
+	UnityEngine.PlayerLoop.PreLateUpdate+PhysicsLateUpdate
+	UnityEngine.PlayerLoop.PreLateUpdate+ScriptRunBehaviourLateUpdate
+UnityEngine.PlayerLoop.PostLateUpdate
+	CustomPlayerLoopSystem.StartOfPostLateUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+PlayerSendFrameStarted
+	UnityEngine.PlayerLoop.PostLateUpdate+DirectorLateUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+ScriptRunDelayedDynamicFrameRate
+	UnityEngine.PlayerLoop.PostLateUpdate+PhysicsSkinnedClothBeginUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateRectTransform
+	UnityEngine.PlayerLoop.PostLateUpdate+PlayerUpdateCanvases
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateAudio
+	UnityEngine.PlayerLoop.PostLateUpdate+VFXUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+ParticleSystemEndUpdateAll
+	UnityEngine.PlayerLoop.PostLateUpdate+EndGraphicsJobsAfterScriptLateUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateCustomRenderTextures
+	UnityEngine.PlayerLoop.PostLateUpdate+XRPostLateUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateAllRenderers
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateLightProbeProxyVolumes
+	UnityEngine.PlayerLoop.PostLateUpdate+EnlightenRuntimeUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateAllSkinnedMeshes
+	UnityEngine.PlayerLoop.PostLateUpdate+ProcessWebSendMessages
+	UnityEngine.PlayerLoop.PostLateUpdate+SortingGroupsUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateVideoTextures
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateVideo
+	UnityEngine.PlayerLoop.PostLateUpdate+DirectorRenderImage
+	UnityEngine.PlayerLoop.PostLateUpdate+PlayerEmitCanvasGeometry
+	UnityEngine.PlayerLoop.PostLateUpdate+PlayerRenderUIEBatchModeOffscreen
+	UnityEngine.PlayerLoop.PostLateUpdate+PhysicsSkinnedClothFinishUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+FinishFrameRendering
+	UnityEngine.PlayerLoop.PostLateUpdate+BatchModeUpdate
+	UnityEngine.PlayerLoop.PostLateUpdate+PlayerSendFrameComplete
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateCaptureScreenshot
+	UnityEngine.PlayerLoop.PostLateUpdate+PresentAfterDraw
+	UnityEngine.PlayerLoop.PostLateUpdate+ClearImmediateRenderers
+	UnityEngine.PlayerLoop.PostLateUpdate+PlayerSendFramePostPresent
+	UnityEngine.PlayerLoop.PostLateUpdate+UpdateResolution
+	UnityEngine.PlayerLoop.PostLateUpdate+InputEndFrame
+	UnityEngine.PlayerLoop.PostLateUpdate+TriggerEndOfFrameCallbacks
+	UnityEngine.PlayerLoop.PostLateUpdate+GUIClearEvents
+	UnityEngine.PlayerLoop.PostLateUpdate+ShaderHandleErrors
+	UnityEngine.PlayerLoop.PostLateUpdate+ResetInputAxis
+	UnityEngine.PlayerLoop.PostLateUpdate+ThreadedLoadingDebug
+	UnityEngine.PlayerLoop.PostLateUpdate+ProfilerSynchronizeStats
+	UnityEngine.PlayerLoop.PostLateUpdate+MemoryFrameMaintenance
+	UnityEngine.PlayerLoop.PostLateUpdate+ExecuteGameCenterCallbacks
+	UnityEngine.PlayerLoop.PostLateUpdate+XRPreEndFrame
+	UnityEngine.PlayerLoop.PostLateUpdate+ProfilerEndFrame
+	UnityEngine.PlayerLoop.PostLateUpdate+GraphicsWarmupPreloadedShaders
+	UnityEngine.PlayerLoop.PostLateUpdate+ObjectDispatcherPostLateUpdate
+	CustomPlayerLoopSystem.EndOfFrame
+
+[Info   : Unity Log] No Meta XR Audio Room found, setting default room
+[Info   : Unity Log] Meta XR Audio Native Interface initialized with Unity plugin
+[Warning: Unity Log] There can be only one active Event System.
+[Debug  :ModulePatch] output Nlog: Info : Current DSP buffer length: 1024, buffers num: 4
+[Info   : Unity Log] Skipped command line argument:I:\Escape.From.Tarkov.v0.16.1.3.35392-P2P-www.P30Day.ir\EscapeFromTarkov.exe
+[Info   : Unity Log] Skipped command line argument:-force-gfx-jobs
+[Info   : Unity Log] Skipped command line argument:native
+[Info   : Unity Log] key:token value:67f370d8000377760f38bef8
+[Info   : Unity Log] key:config value:{'BackendUrl':'https://127.0.0.1:6969','MatchingVersion':'live','Version':'live'}
+[Debug  :ModulePatch] output Nlog: Info : Application awaken, updateQueue:'Update'
+[Debug  :ModulePatch] output Nlog: Info : Assert.raiseExceptions:'True'
+[Debug  :ModulePatch] output Nlog: Info : Application obfuscation succeed.
+[Debug  :ModulePatch] output Nlog: Info : driveType:HDD swapDriveType:SSD
+[Info   :ModulePatch] Enabled patch AmandsPlayerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsNVGPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsApplyNVGPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsHBAOPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsPrismEffectsPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticSightPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsCameraClassPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsmethod_25Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsTacticalComboVisualControllerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsMethod_7Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurHitPatch
+[Warning:  HarmonyX] AmandsBattleUIScreenPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3575, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner) instead of void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3575, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner).
+[Info   :ModulePatch] Enabled patch AmandsBattleUIScreenPatch
+[Info   :ModulePatch] Enabled patch AmandsEffectsControllerPatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST]: /singleplayer/release
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/release
+[Info   :RequestHandler] [REQUEST]: /singleplayer/moddedTraders
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/moddedTraders
+[Info   :RequestHandler] [REQUEST]: /singleplayer/enableBSGlogging
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/enableBSGlogging
+[Message:EFTVersion] GameVersion:0.16.1.35392 AkiVersion:3.11.1 FikaVersion:1.2.3.0
+[Info   :BaseModulePatch] Enabled patch GamePlayerOwnerPatchs
+[Info   :BaseModulePatch] Enabled patch TriggerWithIdPatchs
+[Message:KmyTarkovConfiguration] spt-core PluginVersion:3.11.1 FileVersion:3.11.1.0 CRC32:163D77E0
+[Message:KmyTarkovConfiguration] WTT-PackNStrap PluginVersion:1.0.9 FileVersion:1.1.11.0 CRC32:7BD0239F
+[Message:KmyTarkovConfiguration] BeltSlot PluginVersion:1.0.1 FileVersion:1.0.0.0 CRC32:2B9CA9CB
+[Message:KmyTarkovConfiguration] BobbysMusicPlayer PluginVersion:1.2.4 FileVersion:1.0.0.0 CRC32:DADE5597
+[Message:KmyTarkovConfiguration] AmandsGraphics PluginVersion:1.6.5 FileVersion:1.6.5.0 CRC32:3A888875
+[Message:KmyTarkovConfiguration] ConfigurationManager PluginVersion:18.0.1 FileVersion:18.0.1.0 CRC32:923AEE97
+[Message:KmyTarkovConfiguration] spt-custom PluginVersion:3.11.1 FileVersion:3.11.1.0 CRC32:8B92DAFC
+[Message:KmyTarkovConfiguration] spt-singleplayer PluginVersion:3.11.1 FileVersion:3.11.1.0 CRC32:C015D750
+[Message:KmyTarkovConfiguration] spt-debugging PluginVersion:3.11.1 FileVersion:3.11.1.0 CRC32:8457D16B
+[Message:KmyTarkovConfiguration] Fika.Core PluginVersion:1.2.3 FileVersion:1.2.3.0 CRC32:CACCF0F5
+[Message:KmyTarkovConfiguration] KmyTarkovReflection PluginVersion:1.4.0 FileVersion:1.4.0.0 CRC32:12E8DCFF
+[Message:KmyTarkovConfiguration] KmyTarkovApi PluginVersion:1.4.0 FileVersion:1.4.0.0 CRC32:D3055261
+[Message:KmyTarkovConfiguration] EnvironmentReplace PluginVersion:1.5.1 FileVersion:1.5.0.0 CRC32:AC9523BD
+[Message:KmyTarkovConfiguration] KmyTarkovConfiguration PluginVersion:1.4.0 FileVersion:1.4.0.0 CRC32:F19E0DF4
+[Message:KmyTarkovConfiguration] KmyTarkovUtils PluginVersion:1.4.0 FileVersion:1.4.0.0 CRC32:1234F89A
+[Message:KmyTarkovConfiguration] DrakiaXYZ-BigBrain PluginVersion:1.3.2 FileVersion:1.3.2.0 CRC32:DCA13FB1
+[Message:KmyTarkovConfiguration] skwizzy.LootingBots PluginVersion:1.5.2 FileVersion:1.0.0.0 CRC32:F5CF3AF2
+[Message:KmyTarkovConfiguration] SAIN PluginVersion:3.3.0 FileVersion:1.0.0.0 CRC32:F4CB2D5E
+[Message:KmyTarkovConfiguration] MoxoPixel-MenuOverhaul PluginVersion:1.0.6 FileVersion:1.0.0.0 CRC32:572E4EEB
+[Message:KmyTarkovConfiguration] redlaser42-HideBetaRework PluginVersion:1.0.0 FileVersion:0.0.0.0 CRC32:41B2659B
+[Message:KmyTarkovConfiguration] DrakiaXYZ-Waypoints PluginVersion:1.7.0 FileVersion:1.7.0.0 CRC32:A665E6EE
+[Info   :BobbysMusicPlayer] Kill Me Pretty - Tamio Okuda-Bullet Train 2022.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] 04. Excomunicado.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] 01. Parabellum (Opening Titles).mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] 24. Really Pissed Off (End Credits).mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] John-Wick-2-Reckoning.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] Ramin Djawadi.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] 08. Dance of the Two Wolves.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] 19. Deconsecrated.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] nobody.mp3 has been loaded and added to playlist
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bundles
+[Info   :BobbysMusicPlayer] caboy.mp3 has been loaded and added to playlist
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bundles
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_toolpouch.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_cashbox.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/mrbvogb.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_keyring.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_fuel.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/rebel9c.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/belt_bison_breacher.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/grenadierbelt.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/mrblmga.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_lunchbox.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_smalldocscase.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/rebel9g.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/belt_bellforgetoolmaster.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/competitionbelt.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_violin.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/belt_fannypack.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/citadelgeneralpurposeutilitybelt.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/belt_kodiak.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_foodcart.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/belt_medic_assault.bundle
+[Info   :BundleManager] MOD: Loading locally Item_SecureContainers/securecontainer_medicsmall.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/belt_apothecary.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_magpouch.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/belt_bison_wireman.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_modcase.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_medpouch.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_ammopouch.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_safe.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_thermaster.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_suitcase.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/mrbgrenadierc.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/lh63russianfederationdutybelt.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/belt_tyr_gunfighter.bundle
+[Info   :BundleManager] MOD: Loading locally Item_Containers/container_smallscavcase.bundle
+[Info   :BundleManager] MOD: Loading locally Item_SecureContainers/securecontainer_mediclarge.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/polytechorionreconbelt.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/belt_assaulter.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/riflemanbeltbison.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/pointmanassaultbelt.bundle
+[Info   :BundleManager] MOD: Loading locally Item_SecureContainers/securecontainer_toolcase.bundle
+[Info   :BundleManager] MOD: Loading locally Item_SecureContainers/securecontainer_pistolcase.bundle
+[Info   :BundleManager] MOD: Loading locally Gear_Belts/belt_tyr_mcb_raider.bundle
+[Info   :BobbysMusicPlayer] 09. The Adjudicator.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] 06. Antique Gun Assembly.mp3 has been loaded and added to playlist
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :ModulePatch] Server version: SPT 3.11.1 - bb6007
+[Info   : Fika.Core] Waiting for locales to be ready...
+[Info   : Fika.Core] Server version check passed. Expected: >2.4.3, received: 2.4.3
+[Info   :FikaModHandler] Loaded plugin: [SPT.Core] with GUID [com.SPT.core] and crc32 [373127136]
+[Info   :FikaModHandler] Loaded plugin: [WTT-PackNStrap] with GUID [com.aaaWTT-PacknStrap.Core] and crc32 [2077238175]
+[Info   :FikaModHandler] Loaded plugin: [BeltSlot] with GUID [BeltSlot] and crc32 [731687371]
+[Info   :FikaModHandler] Loaded plugin: [BobbysMusicPlayer] with GUID [BobbyRenzobbi.MusicPlayer] and crc32 [3672003991]
+[Info   :FikaModHandler] Loaded plugin: [Graphics] with GUID [com.Amanda.Graphics] and crc32 [982026357]
+[Info   :FikaModHandler] Loaded plugin: [Configuration Manager] with GUID [com.bepis.bepinex.configurationmanager] and crc32 [2453335703]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Custom] with GUID [com.SPT.custom] and crc32 [2341657340]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Singleplayer] with GUID [com.SPT.singleplayer] and crc32 [3222656848]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Debugging] with GUID [com.SPT.debugging] and crc32 [2220347755]
+[Info   :FikaModHandler] Loaded plugin: [Fika.Core] with GUID [com.fika.core] and crc32 [3402428661]
+[Info   :FikaModHandler] Loaded plugin: [KmyTarkovReflection] with GUID [com.kmyuhkyuk.KmyTarkovReflection] and crc32 [317250815]
+[Info   :FikaModHandler] Loaded plugin: [KmyTarkovApi] with GUID [com.kmyuhkyuk.KmyTarkovApi] and crc32 [3540341345]
+[Info   :FikaModHandler] Loaded plugin: [EnvironmentReplace] with GUID [com.kmyuhkyuk.EnvironmentReplace] and crc32 [2895455165]
+[Info   :FikaModHandler] Loaded plugin: [KmyTarkovConfiguration] with GUID [com.kmyuhkyuk.KmyTarkovConfiguration] and crc32 [4053667316]
+[Info   :FikaModHandler] Loaded plugin: [KmyTarkovUtils] with GUID [com.kmyuhkyuk.KmyTarkovUtils] and crc32 [305461402]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-BigBrain] with GUID [xyz.drakia.bigbrain] and crc32 [3701555121]
+[Info   :FikaModHandler] Loaded plugin: [LootingBots] with GUID [me.skwizzy.lootingbots] and crc32 [4123998962]
+[Info   :FikaModHandler] Loaded plugin: [SAIN] with GUID [me.sol.sain] and crc32 [4106956126]
+[Info   :FikaModHandler] Loaded plugin: [MoxoPixel-MenuOverhaul] with GUID [moxo.pixel.menuoverhaul] and crc32 [1462652651]
+[Info   :FikaModHandler] Loaded plugin: [MainMenuCleaner] with GUID [redlaser42.MainMenuCleaner] and crc32 [1102210459]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-Waypoints] with GUID [xyz.drakia.waypoints] and crc32 [2791696110]
+[Debug  :FikaModHandler] {"com.SPT.core":373127136,"com.aaaWTT-PacknStrap.Core":2077238175,"BeltSlot":731687371,"BobbyRenzobbi.MusicPlayer":3672003991,"com.Amanda.Graphics":982026357,"com.bepis.bepinex.configurationmanager":2453335703,"com.SPT.custom":2341657340,"com.SPT.singleplayer":3222656848,"com.SPT.debugging":2220347755,"com.fika.core":3402428661,"com.kmyuhkyuk.KmyTarkovReflection":317250815,"com.kmyuhkyuk.KmyTarkovApi":3540341345,"com.kmyuhkyuk.EnvironmentReplace":2895455165,"com.kmyuhkyuk.KmyTarkovConfiguration":4053667316,"com.kmyuhkyuk.KmyTarkovUtils":305461402,"xyz.drakia.bigbrain":3701555121,"me.skwizzy.lootingbots":4123998962,"me.sol.sain":4106956126,"moxo.pixel.menuoverhaul":1462652651,"redlaser42.MainMenuCleaner":1102210459,"xyz.drakia.waypoints":2791696110}
+[Info   :RequestHandler] [REQUEST]: /fika/client/check/mods
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /fika/client/check/mods
+[Debug  :FikaModHandler] {"forbidden":[],"missingRequired":[],"hashMismatch":[]}
+[Info   :FikaModHandler] UI Fixes is not loaded, enabling PartyInfoPanel fix
+[Info   :ModulePatch] Enabled patch PartyInfoPanel_method_3_Patch
+[Info   :BobbysMusicPlayer] GUISounds.method_8 called
+[Info   :BobbysMusicPlayer] Playing Kill Me Pretty - Tamio Okuda-Bullet Train 2022.mp3
+[Info   : Fika.Core] Locales are ready!
+[Info   : Fika.Core] Cached local IPs: 0.0.0.0, 100.96.78.147, 192.168.43.204
+[Info   :LootingBots] Initializing item appraiser
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Warning:MoxoPixel-MenuOverhaul] EnvironmentUISceneFactory GameObject not found.
+[Warning:MoxoPixel-MenuOverhaul] EnvironmentUISceneFactory GameObject not found.
+[Warning:MoxoPixel-MenuOverhaul] EnvironmentUISceneFactory GameObject not found.
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+MoxoPixel.MenuOverhaul.Patches.MenuOverhaulPatch.UpdateSetElements () (at <d04077170ea4401191adfdd5ac2cc261>:0)
+MoxoPixel.MenuOverhaul.Patches.MenuOverhaulPatch.Postfix (EFT.UI.MenuScreen __instance) (at <d04077170ea4401191adfdd5ac2cc261>:0)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__7_0 (System.Object state) (at <8ce0bd04a7a04b4b9395538239d3fdd8>:0)
+UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () (at <b4e80bd296bc48ba89d931486f299d70>:0)
+UnityEngine.UnitySynchronizationContext.Exec () (at <b4e80bd296bc48ba89d931486f299d70>:0)
+UnityEngine.UnitySynchronizationContext.ExecuteTasks () (at <b4e80bd296bc48ba89d931486f299d70>:0)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+Class405:UnityEngine.ILogHandler.LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
+[Info   :BobbysMusicPlayer] GUISounds.method_8 called
+[Info   :BobbysMusicPlayer] Playing 04. Excomunicado.mp3
+[Info   :BobbysMusicPlayer] GUISounds.method_8 called
+[Info   :BobbysMusicPlayer] Playing 01. Parabellum (Opening Titles).mp3
+[Info   :BobbysMusicPlayer] GUISounds.method_8 called
+[Info   :BobbysMusicPlayer] Playing 24. Really Pissed Off (End Credits).mp3
+[Info   :BobbysMusicPlayer] GUISounds.method_8 called
+[Info   :BobbysMusicPlayer] Playing John-Wick-2-Reckoning.mp3
+[Info   :BobbysMusicPlayer] GUISounds.method_8 called
+[Info   :BobbysMusicPlayer] Playing Ramin Djawadi.mp3
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :NetManagerUtils] FikaGameObject has been created!
+[Info   :NetManagerUtils] FikaPingingClient has started!
+[Info   :Fika.PingingClient] HostResponse Data: IPs: 100.96.73.85; 172.25.32.1, Port: 25565,  NatPunch: False, IsHeadless: False
+[Info   : Fika.Core] Attempting to connect to host session...
+[Info   :Fika.PingingClient] Got response from 100.96.73.85:25565, using LocalPort: 64388
+[Info   :NetManagerUtils] Destroyed FikaPingingClient
+[Debug  :ModulePatch] TarkovApplication_LocalGamePreparer_Patch:Prefix
+[Info   :NetManagerUtils] FikaClient has started!
+[Info   :NetManagerUtils] Creating CoopHandler...
+[Info   :Fika.Client] Received settings from server. SendRate: 20, NetId: 2, AllowVOIP: True
+[Info   :ModulePatch] Disabling server scenes
+[Warning:MoxoPixel-MenuOverhaul] EnvironmentUISceneFactory GameObject not found.
+[Error  : Unity Log] Failed to read data for the AssetBundle 'container_medpouch.bundle'.
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
+[Info   :  CoopGame] Location: ReserveBase
+[Debug  :   BepInEx] [UnityInput] Using LegacyInputSystem
+[Info   :  CoopGame] Retrieved spawn point id '2835cac0-f7fa-4910-8e00-7de2fd4d2a2e' from server
+[Info   :  CoopGame] VOIP enabled, initializing...
+[Info   :   Console] [Dissonance:Core] (22:35:24.713) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+- Network: [Dissonance Setup (Fika.Core.Networking.VOIP.FikaCommsNetwork)]
+- Quality Settings: [Quality: Medium, FrameSize: Medium, FEC: True, DenoiseAmount: High, RNN: False (0.65) VoiceDuckLevel: 0.5 VAD: MediumSensitivity]
+- Codec: [Codec: Opus, FrameSize: 1920, SampleRate: 48kHz]
+[Info   : Fika.Core] [ChangeDevice]: VoipMicrophone set device: Microphone (Realtek High Definition Audio)
+[Info   :   Console] [Dissonance:Recording] (22:35:24.960) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'Microphone (Realtek High Definition Audio)')
+[Info   :   Console] [Dissonance:Network] (22:35:25.062) ConnectionNegotiator`1: Received handshake response from server, joined session '208948210'
+[Info   :NetManagerUtils] Setting up game variables...
+[Info   :  CoopGame] Adding debug component...
+[Info   :  CoopGame] Local player created
+[Info   :ModulePatch] Enabled patch AmandsPainkillerAddEffectPatch
+[Info   :ModulePatch] Enabled patch AmandsPainkillerDeleteEffectPatch
+[Info   :ModulePatch] Enabled patch AmandsPainTogglePatch
+[Info   :  CoopGame] Starting task to wait for host to start the raid.
+[Error  : Unity Log] Failed to read data for the AssetBundle 'mrblmga.bundle'.
+[Info   : Fika.Core] [InitVoip]: Initializing VOIP for Yasin-Najafi
+[Info   :  CoopGame] Generating and initializing weather...
+[Warning: Unity Log] BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Quest_areas/new_year_2024_market_reserve"
+[Warning: Unity Log] BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Reserve_Base_VOHR_Camps:/Houses/VOHR_Camp2/B_VOHR_Room1_Corridor1_2/Triggers/Corridor1_2_Interior5"
+[Warning: Unity Log] BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Reserve_Base_Light:/LIGHTING*/VOHR*/CULING_TRIGGER (8)/Corridor1_2_Interior5 (2)"
+[Warning: Unity Log] BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Reserve_Base_Light:/LIGHTING*/VOHR*/CULING_TRIGGER (8)/Corridor1_2_Interior5 (1)"
+[Info   :  CoopGame] Setting Season to: Autumn
+[Info   :  CoopGame] Waiting for other players to finish loading...
+[Info   :  CoopGame] All players are loaded, continuing...
+[Warning: Fika.Core] FreeCameraController::Awake: Failed to cache BattleUI
+[Info   :  CoopGame] MatchingType: GroupPlayer, Raid Code: BCM7SX
+[Info   :   Console] [Dissonance:Playback] (22:36:48.930) SpeechSession: Detected oversized buffer before playback started. Jitter:0.1398598ms (0.1328125) Buffered:680ms Expected:133ms. Discarding 547ms of audio...
+[Info   :BobbysMusicPlayer] GUISounds.StopMenuBackgroundMusicWithDelay called
+[Info   :BobbysMusicPlayer] GUISounds.method_8 called
+[Error  : Fika.Core] [Execute]: MuffledState: Could not find player with id 0 or they were not observed!
+[Info   :BobbysMusicPlayer] GUISounds.method_8 called
+[Error  :  CoopGame] SyncTransitControllers: TransitController was null!
+[Info   :  CoopGame] SpawnPoint: 2835cac0-f7fa-4910-8e00-7de2fd4d2a2e, InfiltrationPoint: Common
+[Info   :ModulePatch] Disabled patch MenuOverhaulPatch
+[Info   :ModulePatch] Disabled patch SetAlphaPatch
+[Info   :ModulePatch] Disabled patch TweenButtonPatch
+[Info   :MoxoPixel-MenuOverhaul] Patches disabled and changes destroyed on game start
+[Warning:BobbysMusicPlayer] AudioSources added to game
+[Warning:BobbysMusicPlayer] Load music to combat
+[Info   :   Console] [Dissonance:Recording] (22:37:05.755) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'Microphone (Realtek High Definition Audio)')
+[Info   :   Console] [Dissonance:Recording] (22:37:07.458) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'Microphone (Realtek High Definition Audio)')
+[Warning:BobbysMusicPlayer] Music in combat loaded! 34.795
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player hit. Combat timer set to 20
+[Info   :BobbysMusicPlayer] Player hit
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player hit. Combat timer set to 20
+[Info   :BobbysMusicPlayer] Player hit
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player hit. Combat timer set to 20
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player hit. Combat timer set to 20
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player hit. Combat timer set to 20
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Debug  : Fika.Core] FreecamController: Spectating new player: Yasin-Najafi
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Enemy shot fired past cutoff distance
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot near. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :BobbysMusicPlayer] Player shot at. Combat Timer set to 12
+[Info   :BobbysMusicPlayer] Player shot at
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Debug  :  CoopGame] Stop
+[Info   :ModulePatch] Enabled patch MenuOverhaulPatch
+[Info   :ModulePatch] Enabled patch SetAlphaPatch
+[Info   :ModulePatch] Enabled patch TweenButtonPatch
+[Info   :MoxoPixel-MenuOverhaul] Patches re-enabled after game session end
+[Info   :Fika.Client] ..:: Fika Client Session Statistics ::..
+[Info   :Fika.Client] Sent packets: 7138
+[Info   :Fika.Client] Sent data: 787.25 KB
+[Info   :Fika.Client] Received packets: 10822
+[Info   :Fika.Client] Received data: 7.45 MB
+[Info   :Fika.Client] Packet loss: 1%
+[Info   :NetManagerUtils] Destroyed FikaClient
+[Info   :BobbysMusicPlayer] 01. Parabellum (Opening Titles).mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] Kill Me Pretty - Tamio Okuda-Bullet Train 2022.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] nobody.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] 08. Dance of the Two Wolves.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] 19. Deconsecrated.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] 24. Really Pissed Off (End Credits).mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] 04. Excomunicado.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] Ramin Djawadi.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] 06. Antique Gun Assembly.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] John-Wick-2-Reckoning.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] 09. The Adjudicator.mp3 has been loaded and added to playlist
+[Info   :BobbysMusicPlayer] caboy.mp3 has been loaded and added to playlist
+[Info   :   Console] [Dissonance:Network] (22:43:45.124) FikaCommsNetwork: Encountered error shutting down client: 'Object reference not set to an instance of an object'
+[Info   :BobbysMusicPlayer] GUISounds.method_8 called
+[Info   :BobbysMusicPlayer] Playing 04. Excomunicado.mp3
+[Warning:MoxoPixel-MenuOverhaul] EnvironmentUISceneFactory GameObject not found.
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+MoxoPixel.MenuOverhaul.Patches.MenuOverhaulPatch.UpdateSetElements () (at <d04077170ea4401191adfdd5ac2cc261>:0)
+MoxoPixel.MenuOverhaul.Patches.MenuOverhaulPatch.Postfix (EFT.UI.MenuScreen __instance) (at <d04077170ea4401191adfdd5ac2cc261>:0)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__7_0 (System.Object state) (at <8ce0bd04a7a04b4b9395538239d3fdd8>:0)
+UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () (at <b4e80bd296bc48ba89d931486f299d70>:0)
+UnityEngine.UnitySynchronizationContext.Exec () (at <b4e80bd296bc48ba89d931486f299d70>:0)
+UnityEngine.UnitySynchronizationContext.ExecuteTasks () (at <b4e80bd296bc48ba89d931486f299d70>:0)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+Class405:UnityEngine.ILogHandler.LogException(Exception, Object)
+UnityEngine.Debug:CallOverridenDebugHandler(Exception, Object)
+
