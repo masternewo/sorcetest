@@ -1,0 +1,17 @@
+{
+  "FirstRun": false,
+  "DefaultLocale": "English",
+  "LauncherStartGameAction": 0,
+  "UseAutoLogin": true,
+  "IsDevMode": true,
+  "GamePath": "C:\\Escape.From.Tarkov.v0.16.1.3.35392-P2P-www.P30Day.ir",
+  "ExcludeFromCleanup": [],
+  "Server": {
+    "AutoLoginCreds": {
+      "Username": "Bronson@2291",
+      "Password": ""
+    },
+    "Name": "SPT",
+    "Url": "https://92.114.51.54:6969"
+  }
+}

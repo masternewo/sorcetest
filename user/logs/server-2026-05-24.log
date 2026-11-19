@@ -1,0 +1,137 @@
+[2026-05-24T11:33:35.735Z] debug: 	Importing configs...
+[2026-05-24T11:33:35.887Z] info: 	Commit hash: bb60071eaf57a09502c4d66d3ad1abe444f9e23e
+[2026-05-24T11:33:35.889Z] info: 	Build date: 1742315737686
+[2026-05-24T11:33:36.076Z] info: 	ModLoader: loading: 7 server mods...
+[2026-05-24T11:33:36.167Z] debug: 	ModLoader: Mod WTT-PackNStrap is missing from order.json, adding
+[2026-05-24T11:33:36.167Z] debug: 	ModLoader: Mod [SVM] Server Value Modifier is missing from order.json, adding
+[2026-05-24T11:33:36.167Z] debug: 	ModLoader: Mod fika-server is missing from order.json, adding
+[2026-05-24T11:33:36.168Z] debug: 	ModLoader: Mod redlaser42-Increase Climb Height is missing from order.json, adding
+[2026-05-24T11:33:36.168Z] debug: 	ModLoader: Mod zSolarint-SAIN-ServerMod is missing from order.json, adding
+[2026-05-24T11:33:36.168Z] debug: 	ModLoader: Mod zzDrakiaXYZ-LiveFleaPrices is missing from order.json, adding
+[2026-05-24T11:33:36.315Z] info: 	Mod: LootingBots-ServerMod version: 1.5.2 by: Skwizzy loaded
+[2026-05-24T11:33:36.316Z] info: 	Mod: WTT-PackNStrap version: 1.1.13 by: GrooveypenguinX, Tron, WTT Team loaded
+[2026-05-24T11:33:36.316Z] info: 	Mod: SVM version: 1.11.1 by: GhostFenixx loaded
+[2026-05-24T11:33:36.317Z] info: 	Mod: server version: 2.4.3 by: Fika loaded
+[2026-05-24T11:33:36.317Z] info: 	Mod: Increase Climb Height version: 1.2.0 by: redlaser42 loaded
+[2026-05-24T11:33:36.317Z] info: 	Mod: SAIN version: 2.3.0 by: zSolarint loaded
+[2026-05-24T11:33:36.317Z] info: 	Mod: LiveFleaPrices version: 1.5.2 by: DrakiaXYZ loaded
+[2026-05-24T11:33:36.582Z] info: 	[Fika Server] Overriding SPT configuration
+[2026-05-24T11:33:36.620Z] info: 	Server: executing startup callbacks...
+[2026-05-24T11:33:36.620Z] debug: 	OS: x64 | Windows 10 Pro | win32
+[2026-05-24T11:33:36.620Z] debug: 	CPU: Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz cores: 4
+[2026-05-24T11:33:36.620Z] debug: 	RAM: 15.94GB
+[2026-05-24T11:33:36.623Z] debug: 	PATH: QzpcRXNjYXBlLkZyb20uVGFya292LnYwLjE2LjEuMy4zNTM5Mi1QMlAtd3d3LlAzMERheS5pclxTUFQuU2VydmVyLmV4ZQ==
+[2026-05-24T11:33:36.623Z] debug: 	PATH: QzpcRXNjYXBlLkZyb20uVGFya292LnYwLjE2LjEuMy4zNTM5Mi1QMlAtd3d3LlAzMERheS5pclxTUFQuU2VydmVyLmV4ZQ==
+[2026-05-24T11:33:36.623Z] debug: 	Server: 3.11.1
+[2026-05-24T11:33:36.623Z] debug: 	Node: 22.12.0
+[2026-05-24T11:33:36.623Z] debug: 	Date: 1742315737686
+[2026-05-24T11:33:36.623Z] debug: 	Commit: bb60071eaf57a09502c4d66d3ad1abe444f9e23e
+[2026-05-24T11:33:36.627Z] info: 	Importing database...
+[2026-05-24T11:33:47.788Z] info: 	Database import finished
+[2026-05-24T11:33:47.789Z] debug: 	Database import took 11.1624s
+[2026-05-24T11:33:47.838Z] debug: 	Database ID validation took 2.536ms
+[2026-05-24T11:33:47.840Z] info: 	[LootingBots-ServerMod] Marking items with DiscardLimits as InsuranceDisabled
+[2026-05-24T11:33:47.856Z] info: 	[LootingBots-ServerMod] Global config DiscardLimitsEnabled set to false
+[2026-05-24T11:34:00.259Z] succ: 	Started webserver at https://0.0.0.0:6969
+[2026-05-24T11:34:00.260Z] succ: 	Started websocket at wss://0.0.0.0:6969
+[2026-05-24T11:34:00.260Z] succ: 	Server is running, do not close while playing SPT, Server has started, happy playing!!
+[2026-05-24T11:34:00.311Z] debug: 	Profile backup created: user\profiles\backups\2026-05-24_15-04-00
+[2026-05-24T11:34:00.357Z] debug: 	Loading 4 profiles took 45.334ms
+[2026-05-24T11:34:01.415Z] info: 	[LiveFleaPrices] Fetching Flea Prices for gamemode regular...
+[2026-05-24T11:34:12.084Z] error: 	[LiveFleaPrices] Error fetching flea prices: TypeError: fetch failed
+[2026-05-24T11:34:12.086Z] error: 	[LiveFleaPrices] This is unlikely due to the mod, and more likely due to a system configuration issue
+[2026-05-24T11:34:12.088Z] succ: 	[LiveFleaPrices] Falling back to existing prices file
+[2026-05-24T11:34:24.547Z] debug: 	Saving 4 profiles took 121.919ms
+[2026-05-24T11:34:44.459Z] debug: 	Saving 4 profiles took 43.21ms
+[2026-05-24T11:35:04.462Z] debug: 	Saving 4 profiles took 43.992ms
+[2026-05-24T11:35:24.462Z] debug: 	Saving 4 profiles took 41.59ms
+[2026-05-24T11:35:44.466Z] debug: 	Saving 4 profiles took 42.665ms
+[2026-05-24T11:36:04.470Z] debug: 	Saving 4 profiles took 40.928ms
+[2026-05-24T11:36:24.475Z] debug: 	Saving 4 profiles took 40.894ms
+[2026-05-24T11:36:27.436Z] info: 	[Client Request] /launcher/server/connect
+[2026-05-24T11:36:27.477Z] info: 	[Client Request] /launcher/ping
+[2026-05-24T11:36:27.484Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:36:27.497Z] info: 	[Client Request] /files/launcher/bg.png
+[2026-05-24T11:36:27.548Z] info: 	[Client Request] /launcher/ping
+[2026-05-24T11:36:27.605Z] info: 	[Client Request] /launcher/profile/login
+[2026-05-24T11:36:32.076Z] info: 	[Client Request] /launcher/profile/login
+[2026-05-24T11:36:32.082Z] info: 	[Client Request] /launcher/profile/get
+[2026-05-24T11:36:32.093Z] info: 	[Client Request] /launcher/profile/info
+[2026-05-24T11:36:32.107Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:36:32.121Z] info: 	[Client Request] /launcher/server/loadedServerMods
+[2026-05-24T11:36:32.134Z] info: 	[Client Request] /launcher/server/serverModsUsedByProfile
+[2026-05-24T11:36:32.147Z] info: 	[Client Request] /files/launcher/side_usec.png
+[2026-05-24T11:36:32.160Z] info: 	[Client Request] /launcher/profile/login
+[2026-05-24T11:36:32.165Z] info: 	[Client Request] /launcher/profile/get
+[2026-05-24T11:36:32.172Z] info: 	[Client Request] /launcher/profile/info
+[2026-05-24T11:36:32.178Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:36:44.476Z] debug: 	Saving 4 profiles took 42.961ms
+[2026-05-24T11:37:04.477Z] debug: 	Saving 4 profiles took 40.684ms
+[2026-05-24T11:37:13.905Z] info: 	[Client Request] /launcher/server/connect
+[2026-05-24T11:37:13.932Z] info: 	[Client Request] /launcher/ping
+[2026-05-24T11:37:13.939Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:37:13.952Z] info: 	[Client Request] /files/launcher/bg.png
+[2026-05-24T11:37:13.974Z] info: 	[Client Request] /launcher/ping
+[2026-05-24T11:37:14.012Z] info: 	[Client Request] /launcher/profile/login
+[2026-05-24T11:37:14.018Z] info: 	[Client Request] /launcher/profile/get
+[2026-05-24T11:37:14.027Z] info: 	[Client Request] /launcher/profile/info
+[2026-05-24T11:37:14.039Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:37:14.201Z] info: 	[Client Request] /launcher/server/loadedServerMods
+[2026-05-24T11:37:14.215Z] info: 	[Client Request] /launcher/server/serverModsUsedByProfile
+[2026-05-24T11:37:14.226Z] info: 	[Client Request] /files/launcher/side_usec.png
+[2026-05-24T11:37:14.232Z] info: 	[Client Request] /launcher/profile/login
+[2026-05-24T11:37:14.238Z] info: 	[Client Request] /launcher/profile/get
+[2026-05-24T11:37:14.244Z] info: 	[Client Request] /launcher/profile/info
+[2026-05-24T11:37:14.250Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:37:16.768Z] info: 	[Client Request] /launcher/server/connect
+[2026-05-24T11:37:16.780Z] info: 	[Client Request] /launcher/ping
+[2026-05-24T11:37:16.786Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:37:16.797Z] info: 	[Client Request] /launcher/ping
+[2026-05-24T11:37:16.995Z] info: 	[Client Request] /launcher/profiles
+[2026-05-24T11:37:18.469Z] info: 	[Client Request] /launcher/profile/login
+[2026-05-24T11:37:18.476Z] info: 	[Client Request] /launcher/profile/get
+[2026-05-24T11:37:18.482Z] info: 	[Client Request] /launcher/profile/info
+[2026-05-24T11:37:18.488Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:37:18.494Z] info: 	[Client Request] /launcher/server/loadedServerMods
+[2026-05-24T11:37:18.499Z] info: 	[Client Request] /launcher/server/serverModsUsedByProfile
+[2026-05-24T11:37:18.509Z] info: 	[Client Request] /launcher/profile/login
+[2026-05-24T11:37:18.515Z] info: 	[Client Request] /launcher/profile/get
+[2026-05-24T11:37:18.521Z] info: 	[Client Request] /launcher/profile/info
+[2026-05-24T11:37:18.527Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:37:24.482Z] debug: 	Saving 4 profiles took 43.954ms
+[2026-05-24T11:37:29.834Z] info: 	[Client Request] /launcher/server/connect
+[2026-05-24T11:37:29.841Z] info: 	[Client Request] /launcher/ping
+[2026-05-24T11:37:29.846Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:37:29.854Z] info: 	[Client Request] /launcher/ping
+[2026-05-24T11:37:30.055Z] info: 	[Client Request] /launcher/profiles
+[2026-05-24T11:37:34.447Z] info: 	[Client Request] /launcher/profile/login
+[2026-05-24T11:37:34.453Z] info: 	[Client Request] /launcher/profile/get
+[2026-05-24T11:37:34.460Z] info: 	[Client Request] /launcher/profile/info
+[2026-05-24T11:37:34.465Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:37:34.473Z] info: 	[Client Request] /launcher/server/loadedServerMods
+[2026-05-24T11:37:34.481Z] info: 	[Client Request] /launcher/server/serverModsUsedByProfile
+[2026-05-24T11:37:34.488Z] info: 	[Client Request] /launcher/profile/login
+[2026-05-24T11:37:34.494Z] info: 	[Client Request] /launcher/profile/get
+[2026-05-24T11:37:34.500Z] info: 	[Client Request] /launcher/profile/info
+[2026-05-24T11:37:34.506Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:37:44.502Z] debug: 	Saving 4 profiles took 43.202ms
+[2026-05-24T11:38:04.539Z] debug: 	Saving 4 profiles took 41.097ms
+[2026-05-24T11:38:24.485Z] debug: 	Saving 4 profiles took 43.285ms
+[2026-05-24T11:38:44.511Z] debug: 	Saving 4 profiles took 55.38ms
+[2026-05-24T11:39:04.493Z] debug: 	Saving 4 profiles took 42.155ms
+[2026-05-24T11:39:24.493Z] debug: 	Saving 4 profiles took 41.629ms
+[2026-05-24T11:39:44.495Z] debug: 	Saving 4 profiles took 41.955ms
+[2026-05-24T11:40:04.499Z] debug: 	Saving 4 profiles took 42.082ms
+[2026-05-24T11:40:24.503Z] debug: 	Saving 4 profiles took 45.268ms
+[2026-05-24T11:40:44.506Z] debug: 	Saving 4 profiles took 41.953ms
+[2026-05-24T11:41:04.512Z] debug: 	Saving 4 profiles took 43.218ms
+[2026-05-24T11:41:24.521Z] debug: 	Saving 4 profiles took 48.754ms
+[2026-05-24T11:41:44.515Z] debug: 	Saving 4 profiles took 44.311ms
+[2026-05-24T11:41:45.809Z] info: 	[Client Request] /launcher/server/connect
+[2026-05-24T11:41:45.817Z] info: 	[Client Request] /launcher/ping
+[2026-05-24T11:41:45.822Z] info: 	[Client Request] /launcher/server/version
+[2026-05-24T11:41:45.828Z] info: 	[Client Request] /launcher/ping
+[2026-05-24T11:41:46.028Z] info: 	[Client Request] /launcher/profiles
+[2026-05-24T11:42:04.510Z] debug: 	Saving 4 profiles took 40.538ms
+[2026-05-24T11:42:24.512Z] debug: 	Saving 4 profiles took 41.903ms
+[2026-05-24T11:42:44.520Z] debug: 	Saving 4 profiles took 46.308ms
